@@ -6,6 +6,8 @@ fn main() -> color_eyre::Result<()> {
     Ok(())
 }
 
+//This is a test
+
 fn app(terminal: &mut DefaultTerminal) -> std::io::Result<()> {
     loop {
         terminal.draw(render)?;
